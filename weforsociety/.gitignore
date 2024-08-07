@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+
+# Dependency directories
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+
+# npm package lock
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
+
+# Next.js build output
+.next/
+
+# Optional: Ignore test output
+*.test.js
+*.test.ts
+*.test.tsx
+
+# Optional: Ignore local configuration files
+*.local

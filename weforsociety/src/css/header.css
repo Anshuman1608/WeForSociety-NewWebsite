@@ -1,0 +1,18 @@
+#headerNavBar{
+    background: #61CE70;
+}
+.logo-image{
+    height: 100px;
+    margin-left: 15px;
+}
+#navbarSupportedContent{
+    margin-left: 25%;
+}
+.nav-item{
+    margin-right : 16px;
+}
+
+.nav-link{
+    color: white;
+    font-size: large
+}
