@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/utils/header';
+import Slider from './components/utils/slider';
+import Home from './components/views/home';
 <script src="https://cdn.tailwindcss.com"></script>
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Header />
+    <Home />
   </React.StrictMode>
 );
 
