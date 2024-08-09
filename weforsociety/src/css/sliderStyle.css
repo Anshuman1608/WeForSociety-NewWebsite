@@ -1,21 +1,68 @@
-.each-slide-effect > div {
+*{
+  font-family: "Bebas Neue", sans-serif;
+}
+.each-slide-effect {
+  position: relative;
+}
+
+.slide-content {
+  position: relative;
+  height: 600px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover; /* Adjusted property */
-  background-repeat: no-repeat; /* Ensure background does not repeat */
-  background-position: center; /* Center the image */
-  height: 600px;
-  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
-.each-slide-effect span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.621); /* Grey semi-transparent color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.text-content {
+  text-align: left;
+  color: #fff;
+  font-size: larger;
+  max-width: 80%; /* Ensures the text doesn't stretch too wide */
+  margin-left: 20px; /* Adjusts the text alignment */
+}
+
+.text-content h3 {
+  margin: 0;
+  font-size: 28px; /* Adjust font size as needed */
+  font-weight: bold;
+}
+
+.text-content .description {
+  font-size: 24px; /* Adjust font size as needed */
+  margin-top: 10px;
+}
+
+.donate-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #e63946;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.donate-button:hover {
+  background: #d62839;
+}
+
 .indicator {
   cursor: pointer;
   padding: 10px;
