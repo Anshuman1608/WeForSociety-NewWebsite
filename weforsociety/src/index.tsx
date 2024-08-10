@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from './components/views/home';
+import Home from './components/views/home/home';
 <><script src="https://cdn.tailwindcss.com"></script><style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 </style></>
