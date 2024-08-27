@@ -1,3 +1,4 @@
+//NOT BEING USED
 import React, { Fragment, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -65,20 +66,6 @@ const Testimonial12 = () => {
 										{/* <Rating rating={rating} showLabel={false} /> */}
 										<p className="opacity-50">{description}</p>
 									</div>
-									{/* <div className="px-6 lg:px-12 text-end">
-										<button
-											className="w-10 h-10 text-[12px] bg-transparent border border-slate-400 dark:border-slate-600 rounded-full inline-flex items-center justify-center duration-150 hover:bg-slate-400 hover:text-slate-800 dark:hover:bg-slate-700 dark:hover:text-slate-200 mr-3"
-											onClick={() => handleControl("prev")}
-										>
-											<FontAwesomeIcon icon={faChevronLeft} />
-										</button>
-										<button
-											className="w-10 h-10 text-[12px] bg-transparent border border-slate-400 dark:border-slate-600 rounded-full inline-flex items-center justify-center duration-150 hover:bg-slate-400 hover:text-slate-800 dark:hover:bg-slate-700 dark:hover:text-slate-200"
-											onClick={() => handleControl("next")}
-										>
-											<FontAwesomeIcon icon={faChevronRight} />
-										</button>
-									</div> */}
 								</div>
 							</div>
 						</div>
