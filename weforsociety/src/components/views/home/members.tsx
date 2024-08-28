@@ -5,9 +5,14 @@ import {
 	faLinkedinIn,
 	faTwitter,
 	faBehance,
+	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import PropTypes from "prop-types";
+import piyushImage from './../../../assets/images/piyush.jpg'
+import dhananjayImage from './../../../assets/images/dhananjay.jpg'
+import karishmaImage from './../../../assets/images/karishma.jpg'
+import ashishImage from './../../../assets/images/ashish.jpg'
 
 // Define type for social links
 interface SocialLink {
@@ -31,57 +36,56 @@ interface TeamMemberItemProps {
 
 const teamMembers: TeamMember[] = [
 	{
-		picture: "https://cdn.easyfrontend.com/pictures/users/user24.jpg",
-		fullName: "Akshay Kumar",
-		designation: "Founder / CEO",
-		bio: "Subscribe Easy Tutorials Youtube Channel watch more videos",
+		picture: piyushImage,
+		fullName: "Piyush Agarwal",
+		designation: "Founder / Treasurer",
+		bio: "",
 		socialLinks: [
-			{ icon: faFacebookF, href: "#" },
-			{ icon: faLinkedinIn, href: "#" },
-			{ icon: faTwitter, href: "#" },
-			{ icon: faBehance, href: "#" },
+			{ icon: faFacebookF, href: "https://www.facebook.com/midaspiyush" },
+			{ icon: faLinkedinIn, href: "https://www.linkedin.com/in/midaspiyush/" },
+			{ icon: faTwitter, href: "https://twitter.com/MidasPiyush" },
+			{ icon: faInstagram, href: "https://www.instagram.com/midaspiyush/" },
 		],
 	},
 	{
-		picture: "https://cdn.easyfrontend.com/pictures/users/user9.jpg",
-		fullName: "Raima Ray",
-		designation: "Business Head",
-		bio: "Subscribe Easy Tutorials Youtube Channel watch more videos",
+		picture: dhananjayImage,
+		fullName: "Dhananjay Singh",
+		designation: "Member",
+		bio: "",
 		socialLinks: [
-			{ icon: faFacebookF, href: "#" },
-			{ icon: faLinkedinIn, href: "#" },
-			{ icon: faTwitter, href: "#" },
-			{ icon: faBehance, href: "#" },
+			{ icon: faFacebookF, href: "https://www.facebook.com/mr.singhdj1305" },
+			{ icon: faLinkedinIn, href: "https://www.linkedin.com/in/mrsingh1305/" },
+			{ icon: faTwitter, href: "https://twitter.com/Mrsingh_dj" },
+			{ icon: faInstagram, href: "https://www.instagram.com/mr.singh_dj/" },
 		],
 	},
 	{
-		picture: "https://cdn.easyfrontend.com/pictures/users/user23.jpg",
-		fullName: "Arjun Kapur",
-		designation: "UI Design",
-		bio: "Subscribe Easy Tutorials Youtube Channel watch more videos",
+		picture: karishmaImage,
+		fullName: "Karishma Rastogi",
+		designation: "Member",
+		bio: "",
 		socialLinks: [
-			{ icon: faFacebookF, href: "#" },
-			{ icon: faLinkedinIn, href: "#" },
-			{ icon: faTwitter, href: "#" },
-			{ icon: faBehance, href: "#" },
+			{ icon: faFacebookF, href: "https://www.facebook.com/kari.rastogi" },
+			{ icon: faLinkedinIn, href: "https://www.linkedin.com/in/karirastogi/" },
+			{ icon: faInstagram, href: "https://www.instagram.com/kari.rastogi/" },
 		],
 	},
 	{
-		picture: "https://cdn.easyfrontend.com/pictures/users/user13.jpg",
-		fullName: "Alia Bhatt",
-		designation: "Marketing Head",
-		bio: "Subscribe Easy Tutorials Youtube Channel watch more videos",
+		picture: ashishImage,
+		fullName: "Ashish Agarwal",
+		designation: "Joint Secretary",
+		bio: "",
 		socialLinks: [
-			{ icon: faFacebookF, href: "#" },
-			{ icon: faLinkedinIn, href: "#" },
-			{ icon: faTwitter, href: "#" },
-			{ icon: faBehance, href: "#" },
+			// { icon: faFacebookF, href: "#" },
+			// { icon: faLinkedinIn, href: "#" },
+			// { icon: faTwitter, href: "#" },
+			// { icon: faBehance, href: "#" },
 		],
 	},
 ];
 
 const TeamMemberItem: React.FC<TeamMemberItemProps> = ({ member }) => (
-	<div className="bg-white dark:bg-slate-800 shadow-xl rounded-xl hover:-translate-y-1 duration-500 h-full p-6 lg:p-8">
+	<div className="bg-white dark:bg-slate-800 shadow-xl rounded-xl hover:-translate-y-1 duration-500 h-full p-6 lg:p-8" data-aos="fade-up" data-aos-delay="200">
 		<img
 			src={member.picture}
 			alt={member.fullName}
